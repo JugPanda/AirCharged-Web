@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { FaDiscord, FaYoutube, FaPatreon, FaAmazon } from 'react-icons/fa';
+import { FaDiscord, FaYoutube, FaPatreon, FaAmazon, FaTiktok, FaInstagram } from 'react-icons/fa';
 
 export default function Footer() {
   return (
@@ -20,16 +20,22 @@ export default function Footer() {
             </p>
             {/* Social Icons */}
             <div className="flex gap-3 mt-6">
-              <a href="#" className="p-2 rounded-lg bg-white/5 hover:bg-white/10 transition-all">
+              <a href="https://discord.gg/48GJN7TYnV" target="_blank" rel="noopener noreferrer" className="p-2 rounded-lg bg-white/5 hover:bg-white/10 transition-all">
                 <FaDiscord className="text-xl text-[#5865F2]" />
               </a>
-              <a href="https://youtube.com/@AirCharged" className="p-2 rounded-lg bg-white/5 hover:bg-white/10 transition-all">
+              <a href="https://www.youtube.com/@AirChargedGaming" target="_blank" rel="noopener noreferrer" className="p-2 rounded-lg bg-white/5 hover:bg-white/10 transition-all">
                 <FaYoutube className="text-xl text-red-500" />
               </a>
-              <a href="#" className="p-2 rounded-lg bg-white/5 hover:bg-white/10 transition-all">
+              <a href="https://www.patreon.com/AirCharged" target="_blank" rel="noopener noreferrer" className="p-2 rounded-lg bg-white/5 hover:bg-white/10 transition-all">
                 <FaPatreon className="text-xl text-[#f96854]" />
               </a>
-              <a href="#" className="p-2 rounded-lg bg-white/5 hover:bg-white/10 transition-all">
+              <a href="https://www.tiktok.com/@aircharged" target="_blank" rel="noopener noreferrer" className="p-2 rounded-lg bg-white/5 hover:bg-white/10 transition-all">
+                <FaTiktok className="text-xl text-white" />
+              </a>
+              <a href="https://www.instagram.com/chargedrl" target="_blank" rel="noopener noreferrer" className="p-2 rounded-lg bg-white/5 hover:bg-white/10 transition-all">
+                <FaInstagram className="text-xl text-[#E4405F]" />
+              </a>
+              <a href="https://www.amazon.com/dp/1919179909" target="_blank" rel="noopener noreferrer" className="p-2 rounded-lg bg-white/5 hover:bg-white/10 transition-all">
                 <FaAmazon className="text-xl text-[#ff9900]" />
               </a>
             </div>
